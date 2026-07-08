@@ -1,0 +1,105 @@
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20.25px;
+  width: 338.25px;
+  max-width: 100%;
+}
+
+.form-label {
+  font-family: 'Lexend', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 19.5px;
+  letter-spacing: 0.15px;
+  color: #050A5F;
+  margin-bottom: 7.5px;
+  text-align: left;
+}
+
+.form-input {
+  width: 100%;
+  height: 39px;
+  box-sizing: border-box;
+  background-color: #F3F7FF;
+  border: 0.75px solid #D2D4FF;
+  padding: 4.5px 15.75px;
+  font-family: 'Lexend', sans-serif;
+  font-size: 14px;
+  color: #050A5F;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.form-input:hover {
+  border-color: #000000;
+}
+
+.form-input:focus {
+  border-color: #050A5F;
+}
+
+.form-input.focused-empty {
+  background-color: #050A5F;
+  color: #FFFFFF;
+  border-color: #050A5F;
+}
+
+.form-input.focused-empty::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.email-input {
+  border-radius: 40.5px;
+}
+
+.password-input {
+  border-radius: 32.25px;
+}
+
+.helper-text {
+  font-family: 'Lexend', sans-serif;
+  font-size: 9.5px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.4);
+  align-self: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  width: 338.25px;
+  max-width: 100%;
+  text-align: left;
+}
+
+.signup-btn {
+  width: 99px;
+  height: 27.6px;
+  border-radius: 16.88px;
+  background-color: #3038BD;
+  color: #FFFFFF;
+  border: none;
+  font-family: 'Lexend', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s, transform 0.1s;
+  box-shadow: 0px 4px 10px rgba(48, 56, 189, 0.25);
+  margin-top: 10px;
+}
+
+.signup-btn:hover {
+  background-color: #2229a3;
+}
+
+.signup-btn:active {
+  transform: scale(0.97);
+}

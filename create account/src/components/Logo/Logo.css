@@ -1,0 +1,14 @@
+.logo-container {
+  width: 218.39px;
+  height: 32.89px;
+  margin-bottom: 32.36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
